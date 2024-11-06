@@ -1,0 +1,42 @@
+/* from 0 to 500 */
+@media screen and ( min-width: 0px ) and ( max-width: 600px ) {
+    #navbar-action-btn{
+        display: none;
+     }
+     .nav-item > .active::after {
+        display: none !important;
+    }
+
+    .join-our-community {
+        position: unset !important;
+        width: 100% !important;
+    }
+
+    .remove-margin-top{
+        margin-top: unset !important;
+
+    }
+
+    .join-our-community-2 { 
+        margin-left: unset !important;
+    }
+}
+
+@media screen and ( min-width: 601px ) and ( max-width: 999px ) {
+    #navbar-action-btn{
+        display: none;
+
+    }
+    .nav-item > .active::after {
+        display: none !important;
+    }
+
+    .remove-margin-top{
+        margin-top: unset !important;
+        
+    }
+}
+
+@media screen and ( min-width: 1000px ) {
+   
+}

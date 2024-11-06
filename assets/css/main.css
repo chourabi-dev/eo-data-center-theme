@@ -1,6 +1,14 @@
+@import url(./responsive.css);
+
+
+
 .main-navbar{
     background-color: white; 
     box-shadow: 0px 3px 16px #00000029;
+}
+
+.navbar-toggler-icon{
+    color: white;
 }
 
 .action-link-navbar{
@@ -495,6 +503,14 @@ p{
     background-image: url(../img/news-bg.png);
 }
 
+.our-offers-hero{
+    background-image: url(../img/our-offers-bg.png);
+}
+
+.jobs-hero{
+    background-image: url(../img/jobs-bg.png);
+}
+
 
 .hero-title{
     font-size: 50px;
@@ -639,3 +655,191 @@ p{
     padding: 145px 35px 39px 37px;
 }
 
+
+.scrolled{
+    background-color: #d3d3d3f7 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+
+
+.join-our-community-2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 50px #00000029;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 39px;
+    padding-left: 39px;
+    margin-top: 39px;
+    margin-left: -107px;
+    
+}
+
+.join-our-community-2 > .title{
+    color: #4A4A4A;
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+
+.join-our-community-2 > .content > p{
+    color: #000;
+    font-size: 16px; 
+    
+}
+
+.join-our-community-2 > .action {
+    margin-top: 24px;
+    
+}
+
+
+.count{
+    font-size: 50px;
+    color: #608D33;
+    font-weight: 800;
+}
+
+.count-text{
+    font-size: 26px;
+    color: #4A4A4A;
+    font-weight: 800;
+}
+
+
+.search-engine{
+    border-radius: 40px;
+    background-color: white;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 14px;
+    
+}
+
+.search-catégory > select{
+    border: 0;
+    outline: none;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    border-left: 1px solid;
+    margin-top: 5px;
+}
+
+.search-engine{
+    width: 80%;
+    margin: auto;
+}
+
+
+.loop{
+    font-size: 30px;
+    color: #4A4A4A;
+}
+.search-input > input{
+    border: 0;
+    outline: none;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+
+
+
+.search-bloc-title{
+    font-size: 22px;
+    color: #4A4A4A;
+    font-weight: 700;
+}
+
+
+
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style the custom checkbox */
+  .custom-checkbox .checkmark {
+    display: inline-block;
+    width: 24px;         /* Adjust size here */
+    height: 24px;
+    border: 2px solid green;  /* Green border */
+    border-radius: 4px;       /* Rounded corners (optional) */
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 5px;
+  }
+  
+  /* When checkbox is checked, add a green background */
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark {
+    background-color: green;
+  }
+  
+  /* Add a tick mark when checked */
+  .custom-checkbox .checkmark::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0; /* Hidden initially */
+  }
+  
+  /* Show the tick mark when checked */
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    opacity: 1;
+  }
+
+
+  .custom-checkbox .filter-text{
+    margin-left: 15px;
+    color: #4A4A4A;
+    font-weight: 500;
+  }
+
+
+  .listing{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    opacity: 1;
+    padding: 40px;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+
+  .listing > .logo{
+    height: 108px;
+    width: 108px;
+    background-color: #608D33;
+    border-radius: 15px;
+  }
+
+
+  .listing .title{
+    color: #608D33;
+  }
+
+
+  .listing > .info{
+    width: calc(100% - 120px);
+    margin-left: 30px;
+  }
+
+  .listing > .bookmark{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 23px;
+    color: #4A4A4A;
+  }
